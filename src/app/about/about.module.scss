@@ -1,0 +1,213 @@
+.section-one {
+    background-image: url(../../assets/images/background-one.c5f2ed05.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1792px;
+    margin: 0 auto;
+}
+
+.font-jakarta {
+    font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.svg-line {
+    transform: rotate(170deg) scaleX(-1);
+}
+
+.section-seven-body {
+    max-width: 1365px;
+}
+
+.img-iphone {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+}
+
+.section-seven-content {
+    color: #fff;
+    position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .section-seven-body {
+        height: 300px;
+        border-radius: 0;
+    }
+    .img-iphone {
+        width: 45%;
+    }
+    .section-seven-content {
+        padding-top: 24px;
+        padding-left: 20px;
+    }
+    .description {
+        width: 176px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .section-seven-body {
+        background-size: cover;
+        background: url(../../assets/images/background-small-seven.1a46b6f0.png) no-repeat 50%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .section-one {
+        background-image: url(../../assets/images/background-one-mobile.5930a422.png);
+        background-color: #f2faff;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-seven-body {
+        height: 300px;
+        border-radius: 0;
+    }
+    .img-iphone {
+        width: 40%;
+    }
+    .section-seven-content {
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+    .description {
+        width: 250px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .section-seven-body {
+        width: 92%;
+        height: 370px;
+        background-position: 50%;
+        border-radius: 38px;
+    }
+    .img-iphone {
+        width: 44%;
+        max-width: 375px;
+    }
+    .section-seven-content {
+        padding-top: 40px;
+        padding-left: 78px;
+    }
+    .description {
+        width: 250px;
+    }
+}
+
+@media (min-width: 767px) {
+    .section-seven-body {
+        background: url(../../assets/images/background-small-seven.1a46b6f0.png) no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .section-seven-body {
+        width: 88%;
+        height: 420px;
+        background-position: 50%;
+        border-radius: 44px;
+    }
+    .img-iphone {
+        width: 44%;
+        max-width: 450px;
+        bottom: -60px !important;
+    }
+    .section-seven-content {
+        padding-top: 68px;
+        padding-left: 96px;
+    }
+    .description {
+        width: 380px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .section-seven-body {
+        width: 86%;
+        height: 480px;
+        max-width: 1365px !important;
+        background-position: 50%;
+        border-radius: 52px;
+    }
+    .img-iphone {
+        width: 44%;
+        max-width: 514px;
+        bottom: -66px !important;
+    }
+    .section-seven-content {
+        padding-top: 86px;
+        padding-left: 110px;
+    }
+    .title {
+        padding-bottom: 28px;
+    }
+    .description {
+        width: 434px;
+        padding-bottom: 28px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .section-seven-body {
+        height: 520px;
+        max-width: 1365px !important;
+        background-position: 50%;
+        border-radius: 60px;
+    }
+    .img-iphone {
+        max-width: 520px;
+        bottom: -80px !important;
+    }
+    .section-seven-content {
+        padding-top: 86px;
+        padding-left: 110px;
+    }
+    .title {
+        padding-bottom: 36px;
+    }
+    .description {
+        width: 600px;
+        padding-bottom: 36px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .xxxl\:w-6 {
+        width: 1.25rem;
+    }
+    .xxxl\:h-6 {
+        height: 1.25rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .xxxl\:w-6 {
+        width: 1.5rem;
+    }
+    .xxxl\:h-6 {
+        height: 1.5rem;
+    }
+    .section-seven-body {
+        height: 552px;
+        border-radius: 82px;
+    }
+    .img-iphone {
+        width: 555px;
+        bottom: -80px !important;
+    }
+    .section-seven-content {
+        padding-top: 86px;
+        padding-left: 110px;
+    }
+
+    .description {
+        width: 600px;
+        padding-bottom: 36px;
+    }
+}

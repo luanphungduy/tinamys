@@ -1,0 +1,27 @@
+const images = {
+    mysLogo: require('@/assets/images/mysLogo.svg'),
+    appStore: require('@/assets/images/appStore.svg'),
+    chPlay: require('@/assets/images/chPlay.svg'),
+    vietNamFlag: require('@/assets/images/vietnam_flags.webp'),
+    imgAboutPage: require('@/assets/images/img-about-page-1.webp'),
+    imgSectionTwo: require('@/assets/images/image-section-two.webp'),
+    imgSectionThree: require('@/assets/images/image-section-three.webp'),
+    imgSectionFour: require('@/assets/images/image-section-four.webp'),
+    imgSectionFive: require('@/assets/images/image-section-five.webp'),
+    easy: require('@/assets/images/easy.svg'),
+    smartphone: require('@/assets/images/smartphone.svg'),
+    reduceCost: require('@/assets/images/reduce-cost.svg'),
+    target: require('@/assets/images/target.svg'),
+    ai: require('@/assets/images/artificial-intelligence.svg'),
+    ip7: require('@/assets/images/iPhone-7.webp'),
+    ip1: require('@/assets/images/iPhone-1.webp'),
+    ip2: require('@/assets/images/iPhone-2.webp'),
+    ip3: require('@/assets/images/iPhone-3.webp'),
+    ip4: require('@/assets/images/iPhone-4.webp'),
+    twoCircle: require('@/assets/images/two-circle.c60ff0b6.svg'),
+    backgroundSection8: require('@/assets/images/background-night.webp'),
+    imgSection10: require('@/assets/images/icon-bg-ten.89fbfafa.svg'),
+    imgSection11: require('@/assets/images/main-image-ele.webp'),
+};
+
+export default images;

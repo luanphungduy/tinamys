@@ -1,0 +1,49 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* Bắt đầu từ độ trong suốt */
+    }
+
+    to {
+        opacity: 1;
+        /* Kết thúc ở độ rõ nét */
+    }
+}
+
+.show-more-container {
+    overflow: hidden;
+    max-height: 100px;
+    /* Set a maximum height for the initial display */
+    transition: max-height 0.3s ease;
+    /* Apply a smooth transition */
+    transition: max-height 0.3s ease;
+    border: 1px solid #ccc;
+    /* Màu sắc viền */
+    padding: 10px;
+    /* Khoảng trắng bên trong */
+}
+
+.show-more-container.show {
+    max-height: 1000px;
+    /* Set a larger maximum height when showing more content */
+    animation: fadeIn 0.5s ease;
+}
+
+.icon {
+    font-size: 20px;
+    /* Kích thước của biểu tượng */
+    color: #3498db;
+    /* Màu sắc của biểu tượng */
+}
+
+.additional-content {
+    color: #333;
+    background-color: #f5f5f5;
+    /* Màu nền của phần additional content */
+    padding: 10px;
+    /* Khoảng trắng bên trong phần additional content */
+    margin: 0;
+    /* Loại bỏ margin mặc định */
+    font-size: 14px;
+    /* Kích thước chữ của phần additional content */
+}
