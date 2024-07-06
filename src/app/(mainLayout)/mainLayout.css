@@ -1,0 +1,20 @@
+.main {
+    flex-grow: 1;
+    padding-left: 0;
+    background: inherit;
+    position: fixed;
+    right: 0;
+    width: calc(100vw - 80px);
+}
+
+.main.sidebar-open {
+    width: calc(100vw - 278px);
+}
+
+.content {
+    max-height: calc(100vh - 60px + 1px);
+    height: calc(100vh - 60px + 1px);
+    overflow-y: auto;
+    z-index: 0;
+    background: inherit;
+}

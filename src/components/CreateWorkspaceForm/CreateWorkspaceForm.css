@@ -1,0 +1,86 @@
+.modal-portal .ant-modal-content {
+    border-radius: 10px !important;
+    background: #fff;
+    padding: 0 !important;
+}
+
+.modal-add-new-company-wrapper .ant-modal-body {
+    padding: 0 !important;
+}
+
+.modal-add-new-company-wrapper .container-add-new {
+    width: 100%;
+}
+
+.modal-add-new-company-wrapper .container-add-new .form-bg-avatar {
+    background: linear-gradient(90deg, #8961ff, #71bbff);
+    height: 172px;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.modal-add-new-company-wrapper .container-add-new .form-bg-avatar .icon-update-avatar {
+    font-size: 27px;
+    position: absolute;
+    bottom: 5px;
+    right: 6px;
+    padding: 0.5rem;
+    background-color: #efefef;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.modal-add-new-company-wrapper .container-add-new .form-add-new-company {
+    width: 100%;
+    padding: 100px 40px 30px;
+}
+
+.modal-add-new-company-wrapper .container-add-new .form-add-new-company .title-modal {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 12px;
+    text-align: start;
+}
+
+.modal-add-new-company-wrapper .container-add-new .form-add-new-company .description-modal {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.form-item-custom .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #242424;
+}
+
+.input-formik-global {
+    height: 48px;
+}
+
+.input-formik-global,
+.input-number-formik-global {
+    background: #fff;
+    border: 1px solid #d7d7d7 !important;
+    border-radius: 6px !important;
+}
+
+.select-formik-global .ant-select-selector {
+    border-radius: 6px !important;
+    height: 48px !important;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    align-items: center;
+    line-height: 48px !important;
+}
+
+.form-add-new-company .form-item-custom .ant-select-single {
+    height: 48px;
+}

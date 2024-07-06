@@ -1,0 +1,21 @@
+.no-company {
+    display: flex;
+    width: 600px;
+    padding: 30px 20px;
+    border: 1px solid var(--ds-border);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.051);
+    border-radius: 10px;
+    margin: 150px auto 0;
+}
+
+.title__no-comapny {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.des__no-comapny {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+}

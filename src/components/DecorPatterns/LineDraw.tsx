@@ -145,3 +145,33 @@ export const RedLine = () => {
         </svg>
     );
 };
+
+export const Circle1 = () => {
+    return (
+        <svg
+            width="100%"
+            height="100%"
+            className="absolute top-[-48%] right-[-5%] md:left-[-4%] z-0 w-[24%]"
+            viewBox="0 0 338 338"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <circle cx="168.891" cy="168.685" r="168.574" fill="#ffffff1a"></circle>
+        </svg>
+    );
+};
+
+export const BlueDot = () => {
+    return (
+        <svg
+            width="6px"
+            height="100%"
+            className="mx-6"
+            viewBox="0 0 338 338"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <circle cx="168.891" cy="168.685" r="168.574" fill="#2B59FF"></circle>
+        </svg>
+    );
+};

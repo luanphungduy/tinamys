@@ -1,15 +1,23 @@
-import React from "react";
-import Link from "next/link";
+'use client';
+
+import React from 'react';
+import AboutPage from './about/page';
+import MainLayout from './(mainLayout)/layout';
+import HomePage from './(mainLayout)/homepage/page';
+
 type Props = {};
 
 const Home = (props: Props) => {
-  return (
-    <div>
-      <Link href="/about" style={{ fontSize: 40, fontWeight: "bold" }}>
-        Link to about
-      </Link>
-    </div>
-  );
+    const tokenLogin = localStorage.getItem('accessToken');
+
+    if (tokenLogin)
+        return (
+            <MainLayout>
+                <HomePage />
+            </MainLayout>
+        );
+
+    return <AboutPage />;
 };
 
 export default Home;

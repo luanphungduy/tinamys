@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { CSSProperties } from 'styled-components';
 
 type Props = {
     src: string;
